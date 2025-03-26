@@ -1,8 +1,6 @@
-# Kobra-miner
-Fork of https://github.com/tmrlvi/kaspa-miner
 
-[![Discord](https://discordapp.com/api/guilds/599153230659846165/embed.png)](https://discord.gg/kS3SK5F36R)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kobraenglish)
+ https://github.com/kobradag/kaspa-miner-gpu
+
 
 
 ## Installation
@@ -20,7 +18,7 @@ If you are looking to build from the repository (for debug / extension), note th
 packages in the workspace. To compile a specific package, you run the following command or any subset of it
 
 ```sh
-git clone git@github.com:tmrlvi/kobra-miner.git
+git clone git@github.com:kobradag/kaspa-miner-gpu.git
 cd kobra-miner
 cargo build --release -p kobra-miner -p kobracuda -p kobraopencl
 ```
@@ -30,7 +28,7 @@ cargo build --release --all
 ```
 
 ### From Binaries
-The [release page](https://github.com/tmrlvi/kobra-miner/releases) includes precompiled binaries for Linux, and Windows (for the GPU version).
+The [release page](https://github.com/kobradag/kaspa-miner-gpu/releases) includes precompiled binaries for Linux, and Windows (for the GPU version).
 
 ### Removing Plugins
 To remove a plugin, you simply remove the corresponding `dll`/`so` for the directory of the miner. 
