@@ -1,5 +1,5 @@
 
- https://github.com/kobradag/kaspa-miner-gpu
+ https://github.com/kobradag/koda-miner-gpu
 
 
 
@@ -18,7 +18,7 @@ If you are looking to build from the repository (for debug / extension), note th
 packages in the workspace. To compile a specific package, you run the following command or any subset of it
 
 ```sh
-git clone git@github.com:kobradag/kaspa-miner-gpu.git
+git clone git@github.com:kobradag/koda-miner-gpu.git
 cd kobra-miner
 cargo build --release -p kobra-miner -p kobracuda -p kobraopencl
 ```
@@ -28,7 +28,7 @@ cargo build --release --all
 ```
 
 ### From Binaries
-The [release page](https://github.com/kobradag/kaspa-miner-gpu/releases) includes precompiled binaries for Linux, and Windows (for the GPU version).
+The [release page](https://github.com/kobradag/koda-miner-gpu/releases) includes precompiled binaries for Linux, and Windows (for the GPU version).
 
 ### Removing Plugins
 To remove a plugin, you simply remove the corresponding `dll`/`so` for the directory of the miner. 
