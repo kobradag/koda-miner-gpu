@@ -13,7 +13,7 @@
 # MAIN script body
 #######################
 
-. /hive/miners/custom/kobra-miner/h-manifest.conf
+. /hive/miners/custom/kobra/h-manifest.conf
 stats_raw=`cat $CUSTOM_LOG_BASENAME.log | grep -w "hashrate" | tail -n 1 `
 #echo $stats_raw
 
