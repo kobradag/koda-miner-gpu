@@ -1,7 +1,7 @@
 ####################################################################################
 ###
 ### kobra-miner
-### https://github.com/tmrlvi/kobra-miner/releases
+### https://github.com/kobradag/koda-miner-gpu/releases
 ###
 ### Hive integration: Merlin
 ###
